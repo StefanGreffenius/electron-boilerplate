@@ -1,0 +1,36 @@
+{
+  "name": "electron-boilerplate",
+  "version": "1.0.0",
+  "description": "A minimal Electron boilerplate",
+  "main": "compiler.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/StefanGreffenius/electron-boilerplate",
+  "keywords": [
+    "Electron",
+    "React",
+    "Bootstrap",
+    "Babel",
+    "Sass",
+    "Live-Reload"
+  ],
+  "author": "Stefan Greffenius",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "electron-reload": "^1.2.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "electron": "^2.0.0",
+    "electron-compile": "^6.4.3",
+    "electron-compilers": "^5.9.0",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1"
+  }
+}
